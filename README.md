@@ -6,7 +6,7 @@ A React single-page app for exploring live cryptocurrency market data. Browse th
 
 ## Features
 
-- **Live market list:** top 100 cryptocurrencies by market cap from the CoinGecko API, refreshed automatically on an interval
+- **Live market list:** top 100 cryptocurrencies by market cap from the CoinGecko API, loaded on page open and refreshed automatically every 30 seconds
 - **Search:** filter by coin name or ticker symbol (e.g. `bitcoin` or `btc`)
 - **Sorting:** by rank, name, price (low → high / high → low), 24h change, or market cap
 - **Grid / list view toggle**
